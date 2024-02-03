@@ -23,7 +23,8 @@ keywords = ["data", "machine", "learning", "processing"]
 requires-python = ">=3.10.0"
 dependencies = [
     "dill>=0.3.0",
-    "fsspec>=2023.12.2",
+    # "fsspec>=2023.12.2",
+    "fsspec==2023.10.0",
     "huggingface-hub>=0.17.0",
     "humanize",
     "loguru>=0.7.0",
@@ -44,7 +45,8 @@ io = [
   "datasets"
 ]
 s3 = [
-  "s3fs>=2023.12.2",
+  # "s3fs>=2023.12.2",
+  "s3fs==2023.10.0",
 ]
 processing = [
     "fasttext-wheel",
